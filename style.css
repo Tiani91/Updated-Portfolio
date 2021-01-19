@@ -5,8 +5,9 @@ header {
     padding: 60px;
     text-align: center;
     color:forestgreen;
-    font-family: 'Black and White Picture';
+    font-family: 'Chakra Petch';
     background-color: darkslategrey;
+    font-size: 20px;
 }
 body {
     margin: 0;
@@ -14,6 +15,7 @@ body {
     font-family: 'Shadows-Into-Light';
     background-color:darkslategray;
     color:floralwhite;
+    font-size: 16px;
 }
 
 .button {
