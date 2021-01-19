@@ -33,6 +33,9 @@ img {
     max-width: 150px;
     margin: auto;
 }
+.logo {
+    background: url('Updated-Portfolio/img/tswebdes.jpg');
+}
 /*Nav*/
 .nav {
     background-color: black;
@@ -47,10 +50,6 @@ img {
     text-decoration: none;
     padding: 14px 16px;
 }
-.logo {
-    background: url('img/tswebdes.jpg');
-}
-
 .nav a.active {
     background-color: black;
     color:greenyellow;
