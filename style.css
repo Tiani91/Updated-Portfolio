@@ -34,38 +34,30 @@ img {
     margin: auto;
 }
 /*Nav*/
-#nav {
-    width:fit-content;
+.nav {
+    background-color: black;
+    overflow: hidden;
+}
+.nav a{
+    color:springgreen;
+    text-align: center;
     float: right;
     margin-top: 20px;
+    font-style: 16px;
+    text-decoration: none;
+    padding: 14px 16px;
 }
-#logo {
+.logo {
     background: url('img/tswebdes.jpg');
 }
-#nav ul {
-    list-style: square;
-    display:block;
-    margin: 0;
-}
-#nav li {
-    margin-top: 9px;
-    float:left;
-    padding-left: 21px;
-}
-#nav li a {
-    background-color: black;
-    color:forestgreen;
-    opacity: 0.6;
-    font-family: 'Shadows-Into-Light';
-    text-decoration: none;
-}
-#nav li a.active {
+
+.nav a.active {
     background-color: black;
     color:greenyellow;
     opacity: 1;
     border-bottom: 2px solid seashell;
 }
-#nav li a.hover {
+.nav a:hover {
     background-color: slategrey;
     color:springgreen;
     opacity: 1;
