@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-header {
+#header {
     padding: 60px;
     text-align: center;
     color:forestgreen;
@@ -27,6 +27,7 @@ body {
     background-color: black;
 }
 img {
+    float: right;
     display: block;
     height: auto;
     max-width: 100%;
