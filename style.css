@@ -5,12 +5,13 @@ header {
     padding: 60px;
     text-align: center;
     color:forestgreen;
-    font-family: Chakra-Petch;
+    font-family: 'Black and White Picture';
+    background-image: 'img/founder.jpg';
 }
 body {
     margin: 0;
     padding: 0;
-    font-family: Shadows-Into-Light;
+    font-family: 'Shadows-Into-Light';
     background-color:darkslategray;
     color:floralwhite;
 }
