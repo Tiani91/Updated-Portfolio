@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-header {
+.header {
     padding: 60px;
     text-align: center;
     color:forestgreen;
@@ -9,7 +9,7 @@ header {
     background-color: darkslategrey;
     font-size: 20px;
 }
-body {
+.body {
     margin: 0;
     padding: 0;
     font-family: 'Shadows-Into-Light';
@@ -26,7 +26,7 @@ body {
     cursor: pointer;
     background-color: black;
 }
-img {
+.img {
     float: right;
     display: block;
     height: 300px;
@@ -44,11 +44,13 @@ img {
 .nav a{
     color:springgreen;
     text-align: center;
-    float: right;
     margin-top: 20px;
     font-style: 16px;
     text-decoration: none;
     padding: 14px 16px;
+}
+.nav a.right{
+    float:right;
 }
 .nav a.active {
     background-color: black;
