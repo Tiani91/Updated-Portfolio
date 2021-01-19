@@ -39,7 +39,7 @@ img {
     float: right;
     margin-top: 20px;
 }
-#logo a {
+#logo {
     background: url('img/tswebdes.jpg');
 }
 #nav ul {
