@@ -72,11 +72,11 @@
     left: 16px;
 }
 /*Nav*/
-.nav {
+.navbar {
     background-color: black;
     overflow: hidden;
 }
-.nav a{
+.navbar a{
     color:springgreen;
     text-align: center;
     margin-top: 20px;
@@ -84,16 +84,16 @@
     text-decoration: none;
     padding: 14px 16px;
 }
-.nav a.right{
+.navbar a.right{
     float:right;
 }
-.nav a.active {
+.navbar a.active {
     background-color: black;
     color:greenyellow;
     opacity: 1;
     border-bottom: 2px solid seashell;
 }
-.nav a:hover {
+.navbar a:hover {
     background-color: slategrey;
     color:springgreen;
     opacity: 1;
