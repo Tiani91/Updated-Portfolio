@@ -5,22 +5,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.page1 {
-    flex: 100%;
-    background-color: darkslategrey;
-    padding: 20px;
-}
-.page2 {
-    flex: 100%;
-    background-color: darkslategrey;
-    padding: 20px;
-}
-.page3 {
-    flex: 100%;
-    background-color: darkslategrey;
-    padding: 20px;
-}
-.page4 {
+.page1, .page2, .page3, .page4 {
     flex: 100%;
     background-color: darkslategrey;
     padding: 20px;
@@ -65,6 +50,27 @@
     text-align: center;
     background-color: darkslategrey;
 }
+/*Container holding image and text*/
+.container {
+    position: relative;
+    text-align: center;
+    color:firebrick;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
 /*Nav*/
 .nav {
     background-color: black;
@@ -91,4 +97,21 @@
     background-color: slategrey;
     color:springgreen;
     opacity: 1;
+}
+@media screen and(max-width: 400px) {
+    .nav a {
+        float: none;
+        width: 100%;
+    }
+}
+/*Pages*/
+.page1, .page2, .page3, .page4 {
+    flex: 100%;
+    background-color: darkslategrey;
+    padding: 20px;
+}
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
 }
