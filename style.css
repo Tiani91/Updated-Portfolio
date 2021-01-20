@@ -1,17 +1,8 @@
 * {
     box-sizing: border-box;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-.page1, .page2, .page3, .page4 {
-    flex: 100%;
-    background-color: darkslategrey;
-    padding: 20px;
-}
 .header {
-    padding: 60px;
+    padding: 80px;
     text-align: center;
     color:forestgreen;
     font-family: 'Chakra Petch';
@@ -25,6 +16,9 @@
     background-color:darkslategray;
     color:floralwhite;
     font-size: 16px;
+}
+.header h1 {
+    font-size: 40px;
 }
 
 .button {
@@ -50,33 +44,13 @@
     text-align: center;
     background-color: darkslategrey;
 }
-/*Container holding image and text*/
-.container {
-    position: relative;
-    text-align: center;
-    color:firebrick;
-}
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
-.bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
 /*Nav*/
 .navbar {
     background-color: black;
     overflow: hidden;
 }
 .navbar a{
+
     color:springgreen;
     text-align: center;
     margin-top: 20px;
@@ -86,12 +60,6 @@
 }
 .navbar a.right{
     float:right;
-}
-.navbar a.active {
-    background-color: black;
-    color:greenyellow;
-    opacity: 1;
-    border-bottom: 2px solid seashell;
 }
 .navbar a:hover {
     background-color: slategrey;
@@ -104,8 +72,15 @@
         width: 100%;
     }
 }
-/*Pages*/
-.page1, .page2, .page3, .page4 {
+/*Column Container*/
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.page1 page2 page3 page4 {
+    -ms-flex: 100%;
     flex: 100%;
     background-color: darkslategrey;
     padding: 20px;
