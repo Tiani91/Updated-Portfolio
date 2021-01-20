@@ -1,6 +1,30 @@
 * {
     box-sizing: border-box;
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.page1 {
+    flex: 100%;
+    background-color: darkslategrey;
+    padding: 20px;
+}
+.page2 {
+    flex: 100%;
+    background-color: darkslategrey;
+    padding: 20px;
+}
+.page3 {
+    flex: 100%;
+    background-color: darkslategrey;
+    padding: 20px;
+}
+.page4 {
+    flex: 100%;
+    background-color: darkslategrey;
+    padding: 20px;
+}
 .header {
     padding: 60px;
     text-align: center;
@@ -35,6 +59,11 @@
 }
 .logo {
     background: url('Updated-Portfolio/img/tswebdes.jpg');
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: darkslategrey;
 }
 /*Nav*/
 .nav {
