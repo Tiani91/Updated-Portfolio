@@ -29,12 +29,8 @@
     cursor: pointer;
     background-color: black;
 }
-.img {
-    float: right;
-    display: block;
-    height: 300px;
-    max-width: 150px;
-    margin: auto;
+.blend {
+    mix-blend-mode: overlay;
 }
 .logo {
     background: url('Updated-Portfolio/img/tswebdes.jpg');
