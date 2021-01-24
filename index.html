@@ -14,31 +14,29 @@
         </script>
 </head>
 <body>
-    <!-- Home -->
-<div class="header">
-        <img src="img/tswebdes.jpg" alt="T's Web Dev" style="width: 15%; height:15%">
-        <div class="navbar">
-                <a href="#page1" class="active">Home</a>
-                <a href="#page2">About</a>
-                <a href="#page3">Portfolio</a>
-                <a href="#page4">Contact</a>
+    <!--Menu-->
+    <navbar class="sidebar collapse navbar animate-left"style="z-index:3;width:300px;" id="navbar"></navbar>
+    <div class="container">
+        <a href="#" onClick="close()" class="hide-large right jumbo padding navbar-hover" title="close-menu">
+            <i class="fa fa-remove"></i>
+        </a>
+        <img src="img/founder.jpg" style="width:45%;" class="round"><br><br>
+        <h4><b>Tiani P</b></h4>
+        <p class="text-white">Frontend Web Dev</p>
     </div>
-</div>
+
+</navbar>
+    <!--Overlay-->
+    <div class="overlay hide-large animate-opacity" onClick="close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+    <!-- Header -->
+<header id="Portfolio">
+        <img src="img/tswebdes.jpg" alt="T's Web Dev" style="width: 15%; height:15%" class="circle right margin hide-large hover-opacity">
+        <span class="button hide-large xxlarge " onClick="open()"><i class="fa fa-bars"></i></span>
+        <div class="container">
+            <h1><b>My Portfolio</b></h1>
+    </div>
 </header>
 <!-- Page 1 -->
-<div class="row">
-    <div class="page1">
-    <figure class="container">
-        <figure>
-        <img src="img/founder.jpg" alt="Founder" style="width: 25%; height: 25%">
-        <figcaption>
-    <div class="top-left"><h2>Tiani P</h2></div>
-    <div class="bottom-left"><h3>Frontend Web Dev</h3></div>
-    <div class="bottom-right">To learn more click here:<span><button>About</button></span></div></figcaption></figure>
-    </div>
-</div>
-</div>
-<!-- Page 2 -->
 <div class="row">
     <div class="page2">
 
