@@ -73,7 +73,7 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
-.page1 page2 page3 page4 {
+.page1 .page2 .page3 .page4 {
     -ms-flex: 100%;
     flex: 100%;
     background-color: darkslategrey;
