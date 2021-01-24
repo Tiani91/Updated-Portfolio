@@ -5,14 +5,14 @@
     padding: 80px;
     text-align: center;
     color:forestgreen;
-    font-family: 'Chakra Petch';
+    font-style: 'Chakra Petch';
     background-color: darkslategrey;
     font-size: 20px;
 }
 .body {
     margin: 0;
     padding: 0;
-    font-family: 'Shadows Into Light';
+    font-style: 'Shadows Into Light';
     background-color:darkslategray;
     color:floralwhite;
     font-size: 16px;
@@ -44,6 +44,7 @@
 .navbar {
     background-color: black;
     overflow: hidden;
+    float:right;
 }
 .navbar a{
 
@@ -53,9 +54,6 @@
     font-style: 16px;
     text-decoration: none;
     padding: 14px 16px;
-}
-.navbar a.right{
-    float:right;
 }
 .navbar a:hover {
     background-color: slategrey;
