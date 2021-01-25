@@ -32,9 +32,6 @@
 .blend {
     mix-blend-mode: overlay;
 }
-.logo {
-    background: url('Updated-Portfolio/img/tswebdes.jpg');
-}
 .footer {
     padding: 20px;
     text-align: center;
