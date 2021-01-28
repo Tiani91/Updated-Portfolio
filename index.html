@@ -15,53 +15,29 @@
 </head>
 <body>
     <!--Menu-->
-    <navbar class="sidebar collapse navbar animate-left"style="z-index:3;width:300px;" id="navbar"></navbar>
-    <div class="container">
-        <a href="" onClick="close()" class="hide-large right jumbo padding navbar-hover" title="close-menu">
-            <i class="fa fa-remove"></i>
-        </a>
-        <img src="img/founder.jpg" style="width:15%; height:15%; border-radius:50%;"><br><br>
-        <h4><b>Tiani P</b></h4>
-        <p class="text-white">Frontend Web Dev</p>
-    </div>
-<div class="bar-block">
-    <a href="#Portfolio" onClick="close()" class="bar-item button padding"><i class="fa fa-th-large fa-fw margin-right"></i>Portfolio</a>
-    <a href="#About" onClick="close()" class="bar-item button padding"><i class="fa fa-user fa-fw margin-right"></i>About</a>
-    <a href="#Contact" onClick="close()" class="bar-item button padding"><i class="fa fa-envelope fa-fw margin-right"></i>Contact</a>
-</div>
-<div class="panel large">
-    <i class="fa fa-facebook-official hover-opacity"></i>
-    <i class="fa fa-github hover-opacity"></i>
-    <i class="fa fa-codepen hover-opacity"></i>
-    <i class="fa fa-FCC hover-opacity"></i>
-    <i class="fa fa-twitter hover-opacity"></i>
-    <i class="fa fa-linkedin hover-opacity"></i>
-</div>
-</navbar>
-    <!--Overlay-->
-    <div class="overlay hide-large animate-opacity" onClick="close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-    <!-- Page Content -->
-    <div class="main" style="margin-left:300px">
-    <!-- Header -->
-<header id="Portfolio">
-        <img src="img/tswebdes.jpg" alt="T's Web Dev" style="width: 15%; height:15%; border-radius:50%" class="circle right margin hide-large hover-opacity">
-        <span class="button hide-large xxlarge " onClick="open()"><i class="fa fa-bars"></i></span>
-        <div class="container">
-            <h1><b>My Portfolio</b></h1>
-        </div>
-        <div class="section bottombar padding-16">
-            <span class="margin-right">Filter:</span>
-            <button class="button">All</button>
-            <button class="button"><i class="fa fa-diamond margin-right"></i>Design</button>
-            <button class="button"><i class="fab fa-dev margin-right"></i>Project Examples</button>
+    <div data-collapse="all" data-animation="default" data-duration="400" role="banner">
+        <div class="w-container">
+            <a href="/" aria-current="page" class="brand-link w-nav-brand w--current"></a>
+            <nav role="navigation" class="nav-menu w-nav-menu">
+                <a href="/" aria-current="page" class="nav-link w-nav-link w--current">Home</a>
+                <a href="/about" class="nav-link w-nav-link">About</a>
+                <a href="/contact" class="nav-link w-nav-link">Contact</a>
+                <div class="social-wrapper">
+                    <a mat-mini-fab href="https://www.facebook.com/MorriganFreya91">
+                        <mat-icon class="mat-18">Facebook</mat-icon></a>
+                        <a mat-mini-fab href="https://www.codepen.io/Tiani91">
+                            <mat-icon class="mat-18">Codepen</mat-icon></a>
+                            <a mat-mini-fab href="https://www.GitHub.com/Tiani91">
+                                <mat-icon class="mat-18">GitHub</mat-icon></a>
+                                <a mat-mini-fab href="https://www.freecodecamp.com/Tiani91">
+                                    <mat-icon class="mat-18">FreeCodeCamp</mat-icon></a>
+                </div>
+            </nav>
+            <div class="menu-button w-nav-button">
+                <div class="hamburger-icon w-icon-nav-menu"></div>
+            </div>
         </div>
     </div>
-</header>
-<!-- Porfolio/1 -->
-<div class="row-padding">
-    <div class="third container margin-bottom">
-        
-    </div>
-</div>
+    
 </body>
 </html>

@@ -1,80 +1,69 @@
-* {
-    box-sizing: border-box;
+body {
+    padding-top: 66px;
+    font-family:fantasy;
+    color:black;
+    font-size: 14px;
+    line-height: 20px;
 }
-.header {
-    padding: 80px;
-    text-align: center;
-    color:forestgreen;
-    font-style: 'Chakra Petch';
-    background-color: darkslategrey;
-    font-size: 20px;
+h1 {
+margin: 10px 0px;
+font-size: 38px;
+line-height: 44px;
+font-weight: 500;
 }
-.body,h1,h2,h3,h4,h5,h6{
-    margin: 0;
-    padding: 0;
-    font-style: 'Shadows Into Light';
-    background-color:darkslategray;
-    color:floralwhite;
-    font-size: 16px;
+h2 {
+    margin: 0px 0px 32px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 300;
 }
-
+h3 {
+    margin: 0px 0px 6px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 300;
+}
+h4 {
+    margin: 10px 0px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+h5 {
+margin: 10px 0px;
+font-size: 14px;
+line-height: 20px;
+font-weight: 700;
+}
+h6 {
+margin: 10px 0px;
+font-size: 12px;
+line-height: 18px;
+font-weight: 700;
+}
+p {
+margin-top: 0px;
+margin-bottom: 10px;
+}
 .button {
-    border: solid;
-    color:aliceblue;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: black;
+display: inline-block;
+margin-right: 14px;
+padding: 16px 28px;
+border: 2px solid #000;
+background-color: black;
+-webkit-transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
+transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
+color: #fff;
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+text-decoration: none;
+text-transform: transparent;
 }
-.blend {
-    mix-blend-mode: overlay;
+.button:hover {
+    border-color: #fff;
+    background-color: transparent;
 }
-.footer {
-    padding: 20px;
-    text-align: center;
-    background-color: darkslategrey;
-}
-/*Nav*/
-.navbar {
-    background-color: black;
-    overflow: hidden;
-    float:right;
-}
-.navbar a{
-
-    color:springgreen;
-    text-align: center;
-    margin-top: 20px;
-    font-style: 16px;
-    text-decoration: none;
-    padding: 14px 16px;
-}
-.navbar a:hover {
-    background-color: slategrey;
-    color:springgreen;
-    opacity: 1;
-}
-@media screen and(max-width: 400px) {
-    .nav a {
-        float: none;
-        width: 100%;
-    }
-}
-/*Column Container*/
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-.page1 .page2 .page3 .page4 {
-    -ms-flex: 100%;
-    flex: 100%;
-    background-color: darkslategrey;
-    padding: 20px;
-}
-@media screen and (max-width: 700px) {
-    .row {
-        flex-direction: column;
-    }
+.button.hollow {
+    
 }
