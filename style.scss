@@ -1,0 +1,12 @@
+$myFont: Fantasy;
+$myColor: #282;
+$myFontSize: 14px;
+$myWidth: 680px;
+ body {
+     font-family: $myFont;
+     font-size: $myFontSize;
+     color:$myColor;
+ }
+ #container {
+    width: $myWidth;
+ }
