@@ -271,6 +271,7 @@ body {
     }
     .nav div.logo {
         margin-left: 15px;
+        float:left;
     }
     .nav div.main_list {
         width: 100%;
