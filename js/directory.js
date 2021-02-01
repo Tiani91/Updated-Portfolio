@@ -9,7 +9,7 @@ gradient.addColorStop("0.5", "yellow");
 gradient.addColorStop("1.0", "blue");
 //fill with gradient
 ctx.strokeStyle = gradient;
-ctx.strokeText("Tiani's Web Development", 10, 50);
+ctx.strokeText('Tianis Web Development', 10, 50);
 //Navigation
 $('.navTrigger').click(function () {
     $(this).toggleClass('active');
