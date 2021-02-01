@@ -47,13 +47,6 @@ p {
 margin-top: 0px;
 margin-bottom: 10px;
 }
-canvas {
-    background-image: linear-gradient(rgba(0,0,722,0.8));
-    padding: 0;
-    margin: auto;
-    display: block;
-    width: 800px;
-}
 .button {
 display: inline-block;
 margin-right: 14px;
