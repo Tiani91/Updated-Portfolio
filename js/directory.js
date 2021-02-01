@@ -1,5 +1,5 @@
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
 ctx.font = "20px Chakra Pecth";
 ctx.textAlign = "center";
 //gradient
