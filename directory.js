@@ -8,6 +8,4 @@ gradient.addColorStop("0.5", "yellow");
 gradient.addColorStop("1.0", "blue");
 //fill with gradient
 ctx.strokeStyle = gradient;
-//computed style
-getComputedStyle(document.getElement).getPropertyValue('--replace-text');
-document.documentElement.style.setProperty('--replace-text', 'ctx.strokeStyle');
+ctx.strokeText('I am Tiani.');
