@@ -1,6 +1,6 @@
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
-ctx.font = "20px Chakra-Petch";
+ctx.font = "20px fantasy";
 ctx.textAlign = "center";
 //gradient
 var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
