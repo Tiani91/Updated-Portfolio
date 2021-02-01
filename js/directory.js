@@ -1,4 +1,4 @@
-var c = document.getElementById("myCanvas");
+var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 ctx.font = "38px Chakra Petch";
 //gradient
