@@ -8,7 +8,7 @@ gradient.addColorStop("0.5", "yellow");
 gradient.addColorStop("1.0", "blue");
 //fill with gradient
 ctx.strokeStyle = gradient;
-ctx.strokeText('I can help.');
+ctx.strokeText("T's Web Dev");
 //Navigation
 $('.navTrigger').click(function () {
     $(this).toggleClass('active');
