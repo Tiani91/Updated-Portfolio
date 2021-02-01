@@ -1,7 +1,7 @@
 const canvas = document.getElementById("myCanvas");
-const ctx = canvas.getContext("2d");
-ctx.font = "20px Chakra Pecth";
-ctx.textAlign = "center";
+const ctx = canvas.getContext('2d');
+ctx.font = '20px Chakra Pecth';
+ctx.textAlign = 'center';
 //gradient
 var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
 gradient.addColorStop("0", "green");
