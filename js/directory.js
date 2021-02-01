@@ -1,5 +1,5 @@
-var canvas = document.getElementById("myCanvas");
-var ctx = canvas.getContext("2d");
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
 ctx.font = "20px fantasy";
 ctx.textAlign = "center";
 //gradient
