@@ -9,4 +9,5 @@ gradient.addColorStop("1.0", "blue");
 //fill with gradient
 ctx.strokeStyle = gradient;
 //computed style
-getComputedStyle(document.getElement).getPropertyValue('replace-text');
+getComputedStyle(document.getElement).getPropertyValue('--replace-text');
+document.documentElement.style.setProperty('--replace-text', 'ctx.strokeStyle');
