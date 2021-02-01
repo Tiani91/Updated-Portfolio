@@ -9,3 +9,11 @@ gradient.addColorStop("1.0", "blue");
 //fill with gradient
 ctx.strokeStyle = gradient;
 ctx.strokeText('I can help.');
+//Navigation
+$('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
+});
