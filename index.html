@@ -8,11 +8,11 @@
     <link rel="stylesheet" type="text/css" href="/Updated-Portfolio/style.css">
     <link rel="stylesheet" type="text/scss" href="style.scss">
     <script type="text/javascript" src="/Updated-Portfolio/directory.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display-swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display-swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display-swap" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script>
-        </script>
+    <script src="js/ism-2.2.min.js"></script>
+    <link rel="stylesheet" href="ism/css/my-slider.css"/>
 </head>
 <body>
     <!--Menu-->
@@ -40,43 +40,28 @@
         </div>
     </div>
     <!--Slider-->
-    <canvas id="myCanvas">
-    <div data-animation="fade" data-duration="500" data-infinite="1" data-delay="4000" class="slider">
-        <div class="slider-mask">
-            <div class="slide">
-                <div class="container">
-                    <h1 class="main-heading">I'm Tiani.</h1>
-                    <h1 class="main-heading">I build beautiful <span class="replace-text">Responsive Websites.</span></h1>
-                    <div class="button-group">
-                        <a href="#projects" class="button hollow">View Portfolio</a>
-                        <a href="#contact" class="button hollow">Hire Me</a>
-                    </div>
-                </div>
-            </div>
-            <div class="slide _2">
-                <div class="container">
-                    <h1 class="main-heading">I'm Tiani.</h1>
-                    <h1 class="main heading">I build beautiful <span class="replace-text">Logos</span></h1>
-                    <div class="button-group">
-                        <a href="#projects" class="button hollow">View Portfolio</a>
-                        <a href="#contact" class="button hollow">Hire Me</a>
-                    </div>
-                </div>
-            </div>
-            <div class="slide _3">
-                <div class="container">
-                    <h1 class="main-heading">I'm Tiani.</h1>
-                    <h1 class="main heading">I build beautiful <span class="replace-text">Frontend Web Developments</span></h1>
-                    <div class="button-group">
-                        <a href="#projects" class="button hollow">View Portfolio</a>
-                        <a href="#contact" class="button hollow">Hire Me</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="slider-nav"></div>
-    </div>
-    </canvas>
+    <div class="ism-slider" data-transition_type="fade" data-play_type="loop" data-image_fx="zoomrotate" data-buttons="false" id="my-slider">
+        <ol>
+          <li>
+            <img src="ism/image/slides/wh_22125.jpg">
+            <div class="ism-caption ism-caption-0">I'm Tiani. <br>I make beautiful Frontend Web Developments. </div>
+            <div class="button"><a href="#projects">Portfolio</a></div>
+            <div class="button"><a href="#contact">Hire Me</a></div>
+          </li>
+          <li>
+            <img src="ism/image/slides/tree-701688_1280.jpg">
+            <div class="ism-caption ism-caption-0">I'm Tiani.<br>I make beautiful Logos. </div>
+            <div class="button"><a href="#projects">Portfolio</a></div>
+            <div class="button"><a href="#contact">Hire Me</a></div>
+          </li>
+          <li>
+            <img src="ism/image/slides/flame-726268_1280.jpg">
+            <div class="ism-caption ism-caption-0">I'm Tiani.<br>I make beautiful Responsive Websites.</div>
+            <div class="button"><a href="#projects">Portfolio</a></div>
+            <div class="button"><a href="#contact">Hire Me</a></div>
+          </li>
+        </ol>
+      </div>
     <!--Section-->
     <div class="section grey">
         <div class="container">
