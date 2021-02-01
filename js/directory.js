@@ -1,4 +1,4 @@
-const canvas = document.getElementById("myCanvas");
+const canvas = document.getElementById('myCanvas');
 const ctx = canvas.getContext('2d');
 ctx.font = '20px Chakra Pecth';
 ctx.textAlign = 'center';
