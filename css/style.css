@@ -110,11 +110,15 @@ color:black;
     background-color: #fff;
 }
 .logo {
-width: 25px;
-height: 30px;
-border-radius: 40%;
-overflow: hidden;
-margin-top: -6px;
+background:linear-gradient(green, yellow, blue)
+-webkit-background-clips: text;
+-webkit-text-fill-color: transparent;
+}
+.logo-shadow {
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 18px 14px 2px;
+    color:silver;
 }
 /*section*/
 .section {
