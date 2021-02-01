@@ -8,4 +8,4 @@ gradient.addColorStop("0.5", "yellow");
 gradient.addColorStop("1.0", "blue");
 //fill with gradient
 ctx.strokeStyle = gradient;
-ctx.strokeText('I am Tiani.');
+ctx.strokeText('I can help.');
