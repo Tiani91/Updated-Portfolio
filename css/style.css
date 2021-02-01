@@ -49,6 +49,7 @@ margin-bottom: 10px;
 }
 canvas {
     background-image: linear-gradient(rgba(0,0,722,0.8));
+    display: flex;
 }
 .button {
 display: inline-block;
