@@ -181,7 +181,7 @@ text-align: center;
   .naviBar .navbar-brand {
     background: linear-gradient(rgb(green, yellow, blue));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-linear-gradient: rgb(green, yellow, blue);
   }
 /*Social*/
 .social-wrapper {
