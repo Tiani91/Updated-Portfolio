@@ -398,7 +398,7 @@ text-align: center;
 .skill._90 {
     width: 90%;
 }
-.row: :after {
+.row {
     content: "";
     clear: both;
     display: table;
