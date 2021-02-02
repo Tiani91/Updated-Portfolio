@@ -180,7 +180,8 @@ text-align: center;
   
   .naviBar .navbar-brand {
     background: linear-gradient(rgb(green, yellow, blue));
-    color: silver;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 /*Social*/
 .social-wrapper {
