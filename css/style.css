@@ -139,7 +139,7 @@ text-align: center;
     background-image: linear-gradient(315deg, rgba(0,222,96,0.8), rgba(0, 136, 227, 0.82));
 }
 .section.grey {
-    width: 25%;
+    width: 100%
     background-color: #ededed;
 }
 .section.footer {
