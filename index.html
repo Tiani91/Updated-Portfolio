@@ -11,22 +11,38 @@
     <link href='https://fonts.googleapis.com/css?family=Chakra Petch' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Shadows Into Light' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <script src="js/ism-2.2.min.js"></script>
     <link rel="stylesheet" href="css/my-slider.css"/>
 </head>
 <body>
     <!--Menu-->
-    <div class="container">
-        <header class="Twd"><b>Tiani's Web Development</b></header>
-    </div>
-    <br>
-    <!--Nav-->
-    <nav class="topnav">
-        <a href="/index.html">Home</a>
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+    <nav>
+        <ul class="menu">
+            <li class="Twd"><a href="/index.html">Tiani's Web Development</a></li>
+            <li class="item"><a href="/index.html">Home</a></li>
+            <li class="item"><a href="#">About</a></li>
+            <li class="item has-submenu">
+                <a tabindex="0">Services</a>
+                <ul class="submenu">
+                    <li class="subitem"><a href="#">Design</a></li>
+                    <li class="subitem"><a href="#">Development</a></li>
+                </ul>
+            </li>
+            <li class="item has-submenu">
+                <a tabindex="0">Plans</a>
+                <ul class="submenu">
+                    <li class="subitem"><a href="#">Freelancer</a></li>
+                    <li class="subitem"><a href="#">Startup</a></li>
+                    <li class="subitem"><a href="#">Enterprise</a></li>
+                </ul>
+            </li>
+            <li class="item"><a href="#">Contact</a>
+            </li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
     </nav>
+    <br>
     <!--Slider-->
     <div class="ism-slider" data-transition_type="fade" data-play_type="loop" data-image_fx="zoomrotate" data-buttons="false" id="my-slider">
         <ol>
