@@ -1,6 +1,6 @@
 body {
     padding-top: 66px;
-    font-family:fantasy;
+    font-family:Shadows+Into+Light;
     background-image: url('https://i.ibb.co/yYkJpY3/pexels-photo-3377405.jpg');
     background-size: cover;
     color: #282;
@@ -113,12 +113,13 @@ header {
 background:linear-gradient(green, yellow, blue)
 -webkit-background-clip text;
 -webkit-text-fill-color: transparent;
+text-align:center;
 }
 .Twd {
+    font-family: Chakra+Petch;
     font-size: 24px;
     text-align: center;
-    text-shadow: 18px 14px 2px;
-    color:silver;
+    text-shadow: 18px 14px 2px silver;
 }
 /*section*/
 .section {
