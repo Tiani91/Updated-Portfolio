@@ -49,6 +49,9 @@ font-weight: 700;
 }
 p {
 margin-bottom: 10px;
+font-size: 12px;
+line-height: 18px;
+font-weight: 400;
 }
 .button {
 display: inline-block;
@@ -394,6 +397,11 @@ text-align: center;
 }
 .skill._90 {
     width: 90%;
+}
+.row: :after {
+    content: "";
+    clear: both;
+    display: table;
 }
 [class*="col-"] {
     float: left;
