@@ -1,3 +1,4 @@
+<script type="text/javascript">
 google.charts.load('current', {'packages':['corechart']});
 google.charts.setOnLoadCallback(drawChart);
 
@@ -7,8 +8,8 @@ function drawChart() {
   ['Skill', 'Percentage'],
   ['Frontend Web Development', 90],
   ['HTML/CSS', 70],
-  ['Javascript/jQuery', 50],
-  ['Sass and Bootstrap', 40],
+  ['Javascript/jQuery', 40],
+  ['Sass and Bootstrap', 30],
   ['React.js & Adobe Ill', 10]
 ]);
 
@@ -19,3 +20,4 @@ function drawChart() {
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
   chart.draw(data, options);
 }
+</script>
