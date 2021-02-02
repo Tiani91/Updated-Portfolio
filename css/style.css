@@ -109,12 +109,12 @@ color:black;
     right: 0px;
     background-color: #fff;
 }
-.logo {
+header {
 background:linear-gradient(green, yellow, blue)
--webkit-background-clips: text;
+-webkit-background-clip text;
 -webkit-text-fill-color: transparent;
 }
-.logo-shadow {
+.Twd {
     font-size: 24px;
     text-align: center;
     text-shadow: 18px 14px 2px;
