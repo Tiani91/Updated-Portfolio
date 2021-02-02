@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <script src="js/ism-2.2.min.js"></script>
     <link rel="stylesheet" href="css/my-slider.css"/>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
 </head>
 <body>
     <!--Menu-->
@@ -60,9 +61,36 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-9" id="piechart"></div>
-                <div class="col-3">
-                    <h2>Skills</h2>
+<div class="col-9">
+    <canvas id="chart" width="600" height="500"></canvas>
+
+    <table id="chartData">
+  
+      <tr>
+        <th>Skills</th><th>Percentage Used</th>
+       </tr>
+  
+      <tr style="color: #0DA068">
+        <td>FrontEnd Web Development</td><td>90%</td>
+      </tr>
+  
+      <tr style="color: #194E9C">
+        <td>HTML/CSS</td><td>70%</td>
+      </tr>
+  
+      <tr style="color: #ED9C13">
+        <td>JavaScript/jQuery</td><td>40%</td>
+      </tr>
+  
+      <tr style="color: #ED5713">
+        <td>Sass/Bootstrap</td><td>30%</td>
+      </tr>
+  
+      <tr style="color: #057249">
+        <td>React.js & Adobe Illustrator</td><td>10%</td>
+      </tr>
+    </table>
+</div>
                 </div>
                 </div>
             </div>
