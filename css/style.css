@@ -122,7 +122,9 @@ text-align: center;
 .section {
     padding-top: 80px;
     padding-bottom: 80px;
-    color: #5c5c5c;
+    color: black;
+    background-image: linear-gradient(rgba(277,0,60,0.8));
+    font-weight: 400;
 }
 .section.header {
     padding: 80px 10px;
@@ -140,10 +142,6 @@ text-align: center;
 }
 .section.grey {
     width: 100%
-    font-style: bold;
-    font-size: 18;
-    font-weight: 400;
-
 }
 .section.footer {
     padding: 35px 20px;
