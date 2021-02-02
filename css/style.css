@@ -140,11 +140,10 @@ text-align: center;
 }
 .section.grey {
     width: 100%
-    background-color snow;
     font-style: bold;
     font-size: 18;
     font-weight: 400;
-    
+
 }
 .section.footer {
     padding: 35px 20px;
