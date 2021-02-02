@@ -387,16 +387,20 @@ text-align: center;
     background-color: #cfcfcf;
 }
 .skill._70 {
-    width: 70%,
+    width: 70%;
+    background-color: cornflowerblue;
 }
 .skill._10 {
     width: 10%;
+    background-color: cornflowerblue;
 }
 .skill._40 {
     width: 40%;
+    background-color: cornflowerblue;
 }
 .skill._90 {
     width: 90%;
+    background-color: cornflowerblue;
 }
 .row:after {
     content: "";
