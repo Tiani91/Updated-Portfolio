@@ -179,8 +179,8 @@ text-align: center;
   }
   
   .naviBar .navbar-brand {
-    background: black;
-    color: black;
+    background: linear-gradient(rgb(green, yellow, blue));
+    color: silver;
   }
 /*Social*/
 .social-wrapper {
