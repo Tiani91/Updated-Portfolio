@@ -98,10 +98,6 @@ color:black;
 .button.form:hover {
     background-color: #249cff;
 }
-.navbar {
-    position:fixed;
-    background-color: #fff;
-}
 header {
 background:linear-gradient(green, yellow, blue);
 text-align: center;
