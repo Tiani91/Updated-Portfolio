@@ -169,12 +169,12 @@ text-align: center;
     background: black;
   }
   
-  .naviBar ul.navbar-nav li a {
+  .naviBar ul.navbar-nav a {
     background: black;
     color: grey;
   }
   
-  .naviBar ul.navbar-nav li a:hover {
+  .naviBar ul.navbar-nav a:hover {
     color: limegreen;
   }
   
