@@ -460,7 +460,7 @@ text-align: center;
     width: fit-content;
     height:fit-content;
     border-radius: 50%;
-    background-image: conic-gradient(green 90%, yellow 70%, blue 40%, orange 30%, purple 10%);
+    background-image: conic-gradient(green 90deg, yellow 70deg, blue 40deg, orange 30deg, purple 10deg);
     justify-content: center;
     align-items: center;
 }
