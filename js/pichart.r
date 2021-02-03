@@ -1,7 +1,0 @@
-bitmap(file="out.png")
-x <- c(10,30,40,70,90)
-pie(x, init.angle = 90)
-mylabel <- c("FrontendWeb Development", "HTML/CSS", "JavaScript/jQuery", "SASS/Bootstrap", "React.js & Adobe Illustrator")
-colors <- c("blue", "yellow", "green", "orange", "purple")
-pie(x, label = mylabel, main = "Skills", col = colors)
-legend("bottomright", mylabel, fill = colors)

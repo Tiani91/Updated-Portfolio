@@ -452,6 +452,18 @@ text-align: center;
 .skill._30 {
     width: 30%;
 }
+/*piechart*/
+.piechart {
+    margin-top: 300px;
+    display: block flex;
+    position:absolute;
+    width: fit-content;
+    height:fit-content;
+    border-radius: 50%;
+    background-image: conic-gradient(green 90%, yellow 70%, blue 40%, orange 30%, purple 10%);
+    justify-content: center;
+    align-items: center;
+}
   /*rows and columns*/
 .row:after {
     content: "";
