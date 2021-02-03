@@ -426,6 +426,33 @@ text-align: center;
   #chartData tr:hover td {
     background: #f0f0f0;
   }
+  .skill {
+    padding: 12px 16px;
+    border-left: 2px solid rgba(0,0,0,0.09);
+    background-color: snow;
+    color: #000;
+    font-weight: 600;
+    text-transform:uppercase;
+}
+.skill:hover {
+    background-color: #cfcfcf;
+}
+.skill._70 {
+    width: 70%;
+}
+.skill._10 {
+    width: 10%;
+}
+.skill._40 {
+    width: 40%;
+}
+.skill._90 {
+    width: 90%;
+}
+.skill._30 {
+    width: 30%;
+}
+  /*rows and columns*/
 .row:after {
     content: "";
     clear: both;
