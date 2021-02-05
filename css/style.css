@@ -219,7 +219,7 @@ text-align: center;
     transform: translate(0px, 5px);
 }
 /*Projects*/
-.project-row .project-row-2 .project-row-3{
+.project-row {
     background-color: #272832;
     background-image: -webkit-gradient(linear, left top, right top, from(#ff0048), to(#f53d00));
     background-image: linear-gradient(90deg, #ff0048, #f53d00);
