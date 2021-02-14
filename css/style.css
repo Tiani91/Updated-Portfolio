@@ -288,6 +288,14 @@ text-align: center;
 .button-group {
  margin-top: 36px;
 }
+.project-wrapper {
+    position:absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 11px 19px 13px;
+    background-color: rgba(0, 0,0, 0.09);
+}
 .tag {
     font-family:fantasy;
     color: hsla(0, 0%, 100%, 0.49);
