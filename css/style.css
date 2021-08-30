@@ -254,21 +254,29 @@ text-align: center;
 }
 .project-link.project-1 {
     width: 25%;
+    align: center;
 }
 .project-link.project-2 {
     width: 50%;
+    height: 50%;
+    align: center;
 }
 .project-link.project-3 {
     width: 25%;
+    align: center;
 }
 .project-link.project-4 {
-    width: 100%;
+    width: 75%;
+    align: center;
+    height: 75%;
 }
 .project-link.project-5 {
     width: 50%;
+    align: center;
 }
 .project-link.project-6 {
     width: 50%;
+    align: center;
 }
 .main-heading {
     color:#fff;
