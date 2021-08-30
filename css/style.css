@@ -253,38 +253,22 @@ text-align: center;
     opacity: 0.5;
 }
 .project-link.project-1 {
-    background-image: url('/img/techdoc.jpg');
     width: 25%;
 }
 .project-link.project-2 {
-    background-image: url('/img/quote.jpg');
-    width: 33.333%;
+    width: 50%;
 }
 .project-link.project-3 {
-    background-image: url('/img/survey.jpg');
     width: 25%;
 }
 .project-link.project-4 {
-    background-image: url('/img/tribute.jpeg');
-    background-position:  100% 50%;
     width: 100%;
 }
 .project-link.project-5 {
-    background-image: url('/img/landingpage.jpg');
     width: 50%;
 }
 .project-link.project-6 {
-    background-image: url('/img/parallax.jpg');
     width: 50%;
-}
-.half-width {
-    width: 50%;
-}
-.quarter-width {
-    width: 25%;
-}
-.third-width {
-    width: 33.333%;
 }
 .main-heading {
     color:#fff;
