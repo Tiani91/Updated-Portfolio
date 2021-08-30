@@ -162,7 +162,6 @@ text-align: center;
     -webkit-transition: color 200ms ease, background-color 200ms ease;
     transition: color 200ms ease, background-color 200ms ease;
     color: #272832;
-    position: absolute;
 }
 .menu-button:hover {
     background-color: #f2f2f2;
