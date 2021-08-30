@@ -195,7 +195,7 @@ text-align: center;
   }
   
   .naviBar .navbar-brand {
-    background: linear-gradient(rgb(green, yellow, blue));
+    background-color: linear-gradient(rgb(green, yellow, blue));
     -webkit-background-clip: text;
     -webkit-text-fill-color: springgreen;
   }
@@ -225,14 +225,17 @@ text-align: center;
     background-color: #272832;
     background-image: -webkit-gradient(linear, left top, right top, from(#ff0048), to(#f53d00));
     background-image: linear-gradient(90deg, #ff0048, #f53d00);
+    background-color: linear-gradient;
 }
 .project.blue {
-    background-image: -webkit-gradient(linear, left top, right top, from(#a0f), to(#0072f5));
-    background-image: linear-gradient(90deg, #a0f, #0072f5);
+    background-image: -webkit-gradient(linear, left top, right top, from(#66ffff), to(#66ffcc));
+    background-image: linear-gradient(90deg, #66ffff, #66ffcc);
+    background-color: linear-gradient;
 }
 .project.teal {
-    background-image: -webkit-gradient(linear, left top, right top, from(#00b7ff), to(#0072f5));
-    background-image: linear-gradient(90deg, #00b7ff, #00f59b);
+    background-image: -webkit-gradient(linear, left top, right top, from(#3399ff), to(#ccff99));
+    background-image: linear-gradient(90deg, #3399ff, #ccff99);
+    background-color: linear-gradient;
 }
 .project-link {
     position: relative;
