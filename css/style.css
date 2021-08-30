@@ -182,6 +182,7 @@ text-align: center;
     background: black;
     font-family: 'Chakra Petch';
     font-weight: 400;
+    position: fixed;
   }
   
   .naviBar ul.navbar-nav a {
