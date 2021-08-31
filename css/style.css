@@ -104,7 +104,7 @@ color:black;
     background-color: #249cff;
 }
 header {
-background:linear-gradient(green, yellow, blue);
+background-image:linear-gradient(to right, green, yellow, blue);
 text-align: center;
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
@@ -121,7 +121,7 @@ text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
     color: black;
-    background-image: linear-gradient(rgba(277,0,60,0.8));
+    background-image: linear-gradient(to right, rgba(277,0,60,0.8));
     font-weight: 400;
 }
 .section.header {
@@ -193,7 +193,7 @@ text-align: center;
   }
   
   .naviBar .navbar-brand {
-    background-color: linear-gradient(rgb(green, yellow, blue));
+    background-color: linear-gradient(to left, rgb(green, yellow, blue));
     -webkit-background-clip: text;
     -webkit-text-fill-color: springgreen;
   }
